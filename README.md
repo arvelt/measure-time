@@ -23,7 +23,7 @@ if __name__ == "__main__":
 Run hello.py
 ```
 $ python hello.py
-Call main 5.5e-05 second
+Call main 0.00001 second
 ```
 
 ## INSTALL:
