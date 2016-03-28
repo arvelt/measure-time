@@ -9,4 +9,11 @@ setup(name='measuretime',
     author_email='arvelt.s@gmail.com',
     url='https://github.com/arvelt/measure-time',
     packages=['measuretime'],
+    license     = "MIT License",
+    classifiers = [
+    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3.2",
+    "Programming Language :: Python :: 3.3",
+    "License :: OSI Approved :: MIT License"
+    ]
 )
