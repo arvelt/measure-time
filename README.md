@@ -4,7 +4,8 @@
 Python decorator to measure function time.
 
 ## USAGE:
-```python:hello.py
+``` python:hello.py
+
 import time
 from measuretime.secound import measuresecound
 
