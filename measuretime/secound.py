@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 
-def measuretime(func):
+def measuresecound(func):
 	import functools
 	import time
 	@functools.wraps(func)
 	def wrapper(*args,**kwargs):
 		sttime = time.clock()
-		print '--start--'
 		res = func(*args,**kwargs)
 		entime = time.clock()
 		count = (entime - sttime)
