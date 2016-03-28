@@ -9,7 +9,8 @@ def measuresecound(func):
 		res = func(*args,**kwargs)
 		entime = time.clock()
 		count = (entime - sttime)
-		print 'Call %s %s second' % (func.__name__, count)
+		print count
+		print 'Call %s %f second' % (func.__name__, count)
 		return res
 	return wrapper
 
