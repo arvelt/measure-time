@@ -27,3 +27,6 @@ Call main 5.5e-05 second
 ```
 $pip install measuretime
 ```
+
+### LISENCE
+MIT
