@@ -1,9 +1,9 @@
 # measuretime
 ---
 
-python decorator to measure function time.
+Python decorator to measure function time.
 
-### Usage:
+## USAGE:
 ```python:hello.py
 import time
 from measuretime.secound import measuresecound
@@ -23,10 +23,10 @@ $ python hello.py
 Call main 5.5e-05 second
 ```
 
-#### Install:
+## INSTALL:
 ```
 $pip install measuretime
 ```
 
-### LISENCE
+## LICENSE
 MIT
